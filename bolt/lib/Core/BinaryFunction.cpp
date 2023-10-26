@@ -72,7 +72,7 @@ cl::opt<bool> CheckEncoding(
              "is printed."),
     cl::Hidden, cl::cat(BoltCategory));
 
-static cl::opt<bool> DotToolTipCode(
+cl::opt<bool> DotToolTipCode(
     "dot-tooltip-code",
     cl::desc("add basic block instructions as tool tips on nodes"), cl::Hidden,
     cl::cat(BoltCategory));

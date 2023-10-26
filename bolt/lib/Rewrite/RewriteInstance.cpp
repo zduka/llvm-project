@@ -191,7 +191,7 @@ static cl::opt<bool>
 
 extern cl::opt<bool> PrintSections;
 
-static cl::opt<bool> PrintLoopInfo("print-loops",
+cl::opt<bool> PrintLoopInfo("print-loops",
                                    cl::desc("print loop related information"),
                                    cl::Hidden, cl::cat(BoltCategory));
 
